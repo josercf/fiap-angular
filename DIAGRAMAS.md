@@ -1,5 +1,4 @@
 
-
 ## Os quatro tipos de data binding
 
 ```mermaid
