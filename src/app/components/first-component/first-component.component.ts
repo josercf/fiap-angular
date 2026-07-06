@@ -12,4 +12,10 @@ import { CommonModule } from '@angular/common';
 export class FirstComponentComponent {
   name: string = "Thiago";
   age: number = 41;
+  job = "Developer";
+  hobbies = ["Music", "Sports", "Movies"];
+  car = { make: "Ford", model: "Fiesta" };
+  //para exibir uma imagem busque uma imagem na web e salve dentro da pasta assets
+  imageUrl = '../../assets/angular.png'
+
 }
