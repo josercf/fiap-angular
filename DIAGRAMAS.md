@@ -1,5 +1,3 @@
-# Diagramas de apoio — Vídeo 2: Roteamento, Formulários e Requisições HTTP
-
 ## Roteamento
 
 ```mermaid
@@ -9,7 +7,10 @@ flowchart LR
     C --> O[router-outlet]
     O --> V[Tela renderizada]
 ```
-
+<br>
+<br>
+<br>
+<br>
 ## Formulários: duas abordagens
 
 ```mermaid
