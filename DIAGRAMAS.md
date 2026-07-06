@@ -15,13 +15,15 @@ flowchart TD
     SERV -. injeção de dependência .-> COMP
 ```
 
-## Fluxo de trabalho com o repositório do capítulo
-
-```mermaid
-flowchart LR
-    ORIG[professorthiagoxavier/fiap-angular] -->|fork| MEU[josercf/fiap-angular]
-    MEU -->|clone| LOCAL[Máquina local]
-    LOCAL -->|checkout da branch do vídeo| BR[video-XX]
-    BR -->|commits durante a gravação| BR
-    BR -->|push| MEU
-```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
