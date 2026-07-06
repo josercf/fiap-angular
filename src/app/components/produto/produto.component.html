@@ -1,4 +1,5 @@
 <!-- <p>produto works!</p>
+
 <h3>{{ produto.nome }}</h3>
 <p>Preço: R$ {{ produto.preco }}</p>
 @if (produto.emEstoque) {
@@ -6,8 +7,13 @@
 } -->
 
 <h2>Listar produtos a partir da service</h2>
+<a href="/produtos/novo">Criar Produto</a>
 <ul>
   @for (produto of produtos; track produto.id) {
-    <li>{{ produto.nome }} - R$ {{ produto.preco }}</li>
+    <li>{{ produto.nome }} - R$ {{ produto.preco }}
+        <input type="button" (click)="remover(produto.id)" value="remover" />  | 
+        <button (click)="editar(produto.id)">Editar</button>
+    </li>
   }
 </ul>
+
