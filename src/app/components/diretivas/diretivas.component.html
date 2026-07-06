@@ -1,0 +1,14 @@
+<div [ngClass]="status">
+    Usuário está {{ status }}
+</div>
+
+<h2>Diretiva ngStyle</h2>
+
+
+<p [ngStyle]="{
+    color: corTexto,
+    fontSize: tamanhoFonte + 'px',
+    fontWeight: estiloNegrito ? 'bold' : 'normal'
+  }">
+    Este texto tem estilo aplicado dinamicamente com ngStyle.
+  </p>
