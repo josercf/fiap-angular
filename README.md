@@ -2,10 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
-## Development server
+## Para começar a execução 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
 
+Para rodar o JSON Server, execute o comando `json-server --watch db.json` no terminal. Certifique-se de que o arquivo `db.json` está configurado corretamente no diretório do projeto. O JSON Server estará disponível em `http://localhost:3000/`.
+
+Para criar uma versão de produção do projeto, execute `ng build`. Os artefatos de construção serão armazenados no diretório `dist/`.
+
+Não se esquece de executar os dois server (Angular e Json-server) em terminais diferentes. 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

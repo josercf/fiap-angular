@@ -1,0 +1,49 @@
+{
+  "produtos": [
+    {
+      "id": "a1b2c3",
+      "nome": "Produto 1 alter",
+      "preco": 10,
+      "emEstoque": true
+    },
+    {
+      "id": "d4e5f6",
+      "nome": "Produto 2",
+      "preco": 25.5,
+      "emEstoque": false
+    },
+    {
+      "id": "j1k2l3",
+      "nome": "produto 4",
+      "preco": 12.6,
+      "emEstoque": true
+    }
+  ],
+  "vendas": [
+    {
+      "id": "dfafs",
+      "clienteId": "dfafs",
+      "produtoId": "dfafs",
+      "quantidade": 2,
+      "data": "2023-10-01"
+    },
+    {
+      "id": "ddsaf",
+      "clienteId": "ddsaf",
+      "produtoId": "ddsaf",
+      "quantidade": 1,
+      "data": "2023-10-02"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "dfafs",
+      "nome": "Thiago Xavier",
+      "telefone": "123456789"
+    },
+    {
+      "id": "ddsaf",
+      "nome": "Deborah Aarão"
+    }
+  ]
+}
