@@ -11,4 +11,6 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 })
 export class AppComponent {
   title = 'meu-primeiro-app';
+  imagemUrl: string = 'https://angular.io/assets/images/logos/angular/angular.png';
+  isDisabled = false;
 }
