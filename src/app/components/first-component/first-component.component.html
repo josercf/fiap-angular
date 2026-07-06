@@ -3,3 +3,22 @@
 <h2>Chamando componente filho</h2>
 
 <app-into-component [name]="name" [age]="age"></app-into-component>
+<hr>
+<h2>Exemplos de utilização da interpolação</h2>
+<p>Olá {{name}}</p>
+
+<p>Idade: {{age}}</p>
+<p>Marca: {{car.make}}</p>
+<p>Modelo: {{car.model}}</p>
+<p>Hobbie: {{hobbies[1]}}</p>
+
+<h2>Diretiva For Angular 17</h2>
+<ul class="ingredient-list">
+    @for (hobbie of hobbies; track $index) {
+        <li>{{ hobbie }}</li>
+    }
+</ul>
+
+<h2>Exemplo de utilização do *ngIf</h2>
+<p *ngIf="age >= 18">Você é maior de idade.</p>
+<p *ngIf="age < 18">Você é menor de idade.</p>
