@@ -16,6 +16,18 @@ flowchart LR
     HTML -->|"event binding (evento)"| TS
     TS <-->|"two-way [(ngModel)]"| HTML
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Fluxo de comandos do Angular CLI
 
