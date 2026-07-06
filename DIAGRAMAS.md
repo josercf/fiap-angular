@@ -23,6 +23,7 @@ flowchart LR
 <br>
 <br>
 <br>
+
 ## Formulários: duas abordagens
 
 ```mermaid
@@ -34,6 +35,22 @@ flowchart TD
     RE --> RE2[FormGroup / FormControl no TS]
     RE --> RE3[Mais controle e testabilidade]
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Requisições HTTP
 
