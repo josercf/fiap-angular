@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
+import {FirstComponentComponent } from './components/first-component/first-component.component';
 import { ComponentePaiComponent } from './components/componente-pai/componente-pai.component';
 import { ProdutoComponent } from './components/produto/produto.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, ComponentePaiComponent, ProdutoComponent],
+  imports: [RouterOutlet, FirstComponentComponent,ComponentePaiComponent,ProdutoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
