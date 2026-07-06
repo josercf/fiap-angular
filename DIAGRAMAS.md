@@ -1,5 +1,3 @@
-# Diagramas de apoio — Vídeo 4: Por Que Usar o Framework e Repositório Git
-
 ## Blocos de construção do Angular
 
 ```mermaid
