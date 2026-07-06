@@ -39,3 +39,16 @@ flowchart LR
     B --> E[ng build]
     E --> F[pasta dist pronta para deploy]
 ```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
