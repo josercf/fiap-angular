@@ -1,4 +1,4 @@
-# Diagramas de apoio — Vídeo 3: Data Binding, CLI e Novidades das Versões
+
 
 ## Os quatro tipos de data binding
 
