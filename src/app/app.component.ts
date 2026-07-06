@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { DiretivasComponent } from './components/diretivas/diretivas.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent],
+  imports: [RouterOutlet, FirstComponentComponent, DiretivasComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
